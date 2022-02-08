@@ -1,0 +1,63 @@
+{
+  "name": "charlie-beats-resource-maker",
+  "version": "0.1.0",
+  "description": "A tool to make beats and game maps for charlie-beats",
+  "main": "index.js",
+  "author": "Fog",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router": "^3.2.6",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.5.2",
+    "web-vitals": "^1.0.1",
+    "zent": "^9.12.1"
+  },
+  "scripts": {
+    "start": "webpack server --open",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "@babel/preset-typescript": "^7.16.0",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.4",
+    "@types/react-router": "^5.1.17",
+    "babel-loader": "8",
+    "babel-plugin-zent": "^3.0.1",
+    "css-loader": "^4.3.0",
+    "html-webpack-plugin": "^4.4.1",
+    "react-refresh": "^0.11.0",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.3.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+  }
+}

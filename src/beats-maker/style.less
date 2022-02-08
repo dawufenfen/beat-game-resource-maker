@@ -1,0 +1,50 @@
+.beatsMakerContainer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 5%;
+
+  .operatorArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+
+    .row {
+      margin: 16px;
+
+      .songName {
+        margin-bottom: 16px;
+      }
+    }
+  }
+
+  .beatContainer {
+    margin-left: 10%;
+    width: 40%;
+    font-size: 30px;
+    display: flex;
+    flex-flow: wrap-reverse;
+    justify-content: end;
+    align-items: baseline;
+
+    .downIcon,
+    .upIcon {
+      margin-bottom: 10px;
+    }
+
+    .firstIcon {
+      font-size: 60px;
+    }
+
+    .downIcon {
+      color: #467ae073;
+    }
+
+    .upIcon {
+      color: #db8a0d7a;
+    }
+  }
+}
